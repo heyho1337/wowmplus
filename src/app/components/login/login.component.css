@@ -1,0 +1,6 @@
+pre, .webview{
+	font-size: 0px !important;
+}
+.hide_wv{
+	opacity: 0 !important;
+}

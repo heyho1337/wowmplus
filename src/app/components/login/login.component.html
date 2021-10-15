@@ -1,0 +1,1 @@
+<WebViewExt [ngClass]="{'hide_wv': show_webView === false}" class="webview" #webViewExt [src]="url" *ngIf="show_webView" (loadStarted)="onLoadStarted($event)" (loadFinished)="onLoadFinished($event)"></WebViewExt>

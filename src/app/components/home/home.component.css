@@ -1,0 +1,46 @@
+.logo image{
+	width: 150px !important;
+	float:left;
+	position: relative;
+	top: -4px;
+	margin-top:-2px;
+}
+.menu image{
+	width: 40px !important;
+	float:right;
+	position: relative;
+	top: -4px;
+	margin-top:-2px;
+}
+.logo{
+	float:left;
+}
+.menu{
+	float:right;
+}
+.top{
+	background: url('~/app/images/topmenu.png') repeat-x center center;
+	z-index: 10;
+	position: relative;
+	height: 50px;
+}
+.menuCont, .menuHead{
+	overflow:hidden;
+	position:relative;
+}
+.menuCont{
+	background: url('~/app/images/sidemenu3.png');
+	background-size:contain;
+}
+.menuHead{
+	text-align: center;
+	padding-top: 10px;
+	background: url('~/app/images/sidemenu3.png');
+	background-size:cover;
+}
+.menuWrapper{
+	width: 200px;
+}
+.menuList{
+	padding-left: 20px;
+}

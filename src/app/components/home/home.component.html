@@ -1,0 +1,30 @@
+<RadSideDrawer class="body" tkExampleTitle tkToggleNavButton>
+	<GridLayout tkMainContent row="0" rows="auto" columns="50*, 50*" class="top">
+		<StackLayout horizontalAlignment="left" orientation="horizontal" col="0" class="logo">
+			<Image src="~/app/images/logo.png"></Image>
+		</StackLayout>
+		<StackLayout horizontalAlignment="right" orientation="horizontal" col="1" class="menu">
+			<Image (tap)="MenuOpen()" src="res://menu3"></Image>
+		</StackLayout>
+	</GridLayout>	
+	<GridLayout class="menuWrapper" tkDrawerContent rows="50,50,*">
+		<StackLayout row="0" class="menuSpace"></StackLayout>
+		<StackLayout row="1" class="menuHead">
+            <Label text="Hello, {{auth.btag}}"></Label>
+		</StackLayout>
+		<ScrollView class="menuCont" row="2">
+            <StackLayout class="menuList">
+                <Label text="Characters" class="menuElem"></Label>
+                <Label text="Social" class="menuElem soon"></Label>
+                <Label text="Promotions" class="menuElem soon"></Label>
+                <Label text="Labels" class="menuElem soon"></Label>
+                <Label text="Important" class="menuElem soon"></Label>
+                <Label text="Starred" class="menuElem soon"></Label>
+                <Label text="Sent Mail" class="menuElem soon"></Label>
+                <Label text="Drafts" class="menuElem soon"></Label>
+            </StackLayout>
+        </ScrollView>
+	</GridLayout>
+</RadSideDrawer>
+
+
